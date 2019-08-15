@@ -131,7 +131,7 @@ void ofApp::keyPressed(int key){
       line = line.getSmoothed(2, 0.5);
       line = line.getSmoothed(2, 0.5);
       line = line.getSmoothed(2, 0.5);
-      line = line.getResampledBySpacing(10);
+      line = line.getResampledBySpacing(5); // spacing separacio entre punts
   }
   else if(key == 'u'){
       linep.clear();
